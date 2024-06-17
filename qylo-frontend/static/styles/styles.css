@@ -1,0 +1,321 @@
+body {
+    background: rgb(180,230,247);
+    background: linear-gradient(95deg, rgba(180,230,247,1) 21%, rgba(195,206,233,1) 83%);
+    font-family: 'Poppins', sans-serif;
+    height:100vh
+  }
+  .container {
+    max-width: 540px;
+  }
+  #chat-wrapper {
+    min-height: 400px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  input ,textarea {
+    outline: none;
+  }
+  .close-button {
+    opacity: 0.4;
+    transition: opacity 600ms ease;
+    cursor: pointer;
+  }
+  .close-button:hover {
+    opacity: 1;
+  }
+  #chat-container {
+    position: fixed;
+    bottom: 40px;
+    right: 50%;
+    transform: translate(50%);
+    display: none;
+  }
+  .ol-viewport {
+    border-radius: 40px;
+  }
+  
+  /* SCROLLBAR::width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* SCROLLBAR::Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.25);
+  }
+  
+  /* SCROLLBAR::Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.5); 
+  }
+  
+  /* SCROLLBAR::Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.65); 
+  }
+  
+  .funky {
+    border: 2px solid orange !important;
+  }
+
+  #messages{
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 15px;
+  }
+
+  #header{
+    background-color: #404bad;
+    border-radius: 12px;
+  }
+
+  .chat-right{
+    background-color:#404bad ;
+  }
+
+  .chat-left{
+    background-color:#e0eef3 ;
+    color: #5B619B;
+  }
+  #chat-wrapper span{
+    border-radius: 10px;
+  }
+
+  #interface{
+    border-radius: 12px;
+    color: #6b73bf;
+    background-color: #ffffffad !important;
+  }
+
+  #header a {
+    float:right;
+  }
+
+  #header a img {
+    width: 40px;
+  }
+
+  #chat-container{
+    max-width: 1200px;
+  }
+
+  .input-container{
+    position: relative;
+  }
+
+  .input-container button{
+    position: absolute;
+    right: 15px;
+    background-color: #404bad;
+    top:33px
+  }
+
+  .input-container .btn:hover {
+    color: white;
+    background-color : #404bad;
+    border-color: #ffffff00;
+  }
+
+  .input-container .btn:active {
+    color: white !important;
+    background-color : #2d3579 !important;
+    border-color: #ffffff00 !important;
+  }
+
+  .input-container .btn:focus-visible {
+    color: white;
+    background-color : #404bad;
+    border-color: #ffffff00;
+  }
+
+  input::placeholder,textarea::placeholder {
+    color: #9B9FC7; /* Set your desired placeholder text color */
+  }
+
+  #confirmLogout{
+    background-color: #404BAD;
+    color: white;
+  }
+
+  #cancelLogout{
+    background-color: white;
+    color: #404BAD;
+    border: #404BAD 1px solid;
+  }
+
+  .modal-title{
+    color:#5B619B;
+    font-weight: 600;
+  }
+
+  .modal-body p{
+    color : #9B9FC7;
+    margin-top:20px;
+    font-weight: 600;
+  }
+
+
+  #name-ellipse{
+    text-align: center;
+    position: relative;
+  }
+
+  #name-ellipse p{
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color:#404BAD
+  }
+  #createUserModal .modal-title{
+    width: 100%;
+    text-align: center;
+  }
+
+  .close{
+    background-color: transparent;
+    border: none;
+  }
+
+  .close img{
+    width: 20px;
+  }
+
+  #createUserModal .modal-title{
+    color:#404BAD;
+  }
+
+  #createUserModal label{
+    color: #5B619B;
+    font-weight: 600;
+    font-size:0.8rem;
+    margin-bottom: 5px;
+  }
+
+  #createUserModal input,#createUserModal select,#createUserModal textarea{
+    border-color: #404BAD;
+    color: #5B619B;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+
+  }
+
+  #createUserModal .action button{
+    width:48%;
+    display: inline-block;
+  }
+
+  #createUserModal .action .cancel{
+    margin-right: 2%;
+  }
+
+  #createUserModal .action .create{
+    margin-left: 2%;
+  }
+
+
+  #createUserModal .action {
+    padding: 2%;
+  }
+
+  #createUserModal .cancel{
+    background-color: transparent;
+    border-color: #6574FF;
+    color: #6574FF;
+  }
+
+  #createUserModal #submit-button{
+    background-color:#6574FF;
+    border-color: #6574FF;
+    color: white;
+    margin-left: auto !important;
+  }
+
+  #createUserModal input::placeholder,#createUserModal textarea::placeholder{
+    color:#5B619B;
+    font-size: 0.8rem;
+  }
+
+  .iti{
+    width: 100%;
+  }
+
+  #user-exists{
+    padding: 2px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #createUserModal .modal-header{
+    background-color: #404bad;
+    padding: 10px !important;
+  }
+
+  #createUserModal .modal-header > img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #createUserModal h4 {
+    color:#404bad;
+    font-weight: 600;
+  }
+
+  #createUserModal textarea{
+    height: 10px;
+  }
+
+.loading {
+  cursor: wait;
+}
+
+.doctors-list .doctor {
+  background-color: white;
+  border-radius: 5%;
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 31%;
+  padding: 15px;
+}
+
+
+
+
+.doctors-list .doctor img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px grey solid;
+}
+
+
+.doctors-list .doctor .name{
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  height:40px;
+
+}
+
+.doctors-list .doctor button{
+  background-color: #404bad;
+  border-color: #404bad;
+}
+
+.doctors-list .doctor button:hover{
+  background-color: #333c8c;
+  border-color: #333c8c;
+}
+
+.doctors-list .doctor .profile-link{
+  text-decoration: none;
+}
+
+.message p{
+  margin-bottom: 0rem;
+}

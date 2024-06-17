@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_2851" data-name="Group 2851" transform="translate(-385 -195)">
+    <rect id="Rectangle_780" data-name="Rectangle 780" width="50" height="50" rx="8" transform="translate(385 195)" fill="#fff"/>
+    <g id="Group_2850" data-name="Group 2850" transform="translate(385 195)">
+      <rect id="Rectangle_440" data-name="Rectangle 440" width="50" height="50" rx="8" fill="#d9dbef"/>
+    </g>
+    <g id="Group_2852" data-name="Group 2852" transform="translate(390 200)">
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="11.538" cy="20" rx="11.538" ry="20" transform="translate(8.462)" fill="#404bad" opacity="0.5"/>
+      <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="20" cy="11.538" rx="20" ry="11.538" transform="translate(0 8.462)" fill="#404bad" opacity="0.5"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="15.385" cy="15.385" r="15.385" transform="translate(4.615 4.615)" fill="#404bad"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="12.308" cy="12.308" r="12.308" transform="translate(7.692 7.692)" fill="#fff"/>
+      <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="2.308" cy="3.662" rx="2.308" ry="3.662" transform="translate(12.308 16.154)" fill="#404bad"/>
+      <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="2.308" cy="3.662" rx="2.308" ry="3.662" transform="translate(23.077 16.154)" fill="#404bad"/>
+    </g>
+  </g>
+</svg>

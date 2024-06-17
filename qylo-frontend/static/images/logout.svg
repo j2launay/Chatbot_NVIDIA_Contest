@@ -1,0 +1,7 @@
+<svg id="td-icons-outline-logout" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <rect id="Rectangle_1765" data-name="Rectangle 1765" width="40" height="40" rx="6" fill="none"/>
+  <g id="Group_4676" data-name="Group 4676" transform="translate(9.65 8.15)">
+    <path id="Path_2630" data-name="Path 2630" d="M1536.134,1629.363h-15a.6.6,0,0,0-.6.6v6a.6.6,0,0,0,1.2,0v-5.4h13.8v21.3h-13.8v-5.4a.6.6,0,1,0-1.2,0v6a.6.6,0,0,0,.6.6h15a.6.6,0,0,0,.6-.6v-22.5A.6.6,0,0,0,1536.134,1629.363Z" transform="translate(-1516.034 -1629.363)" fill="#fff"/>
+    <path id="Path_2631" data-name="Path 2631" d="M1515.46,1660.041a.6.6,0,0,0,0,.848.614.614,0,0,0,.849,0l5.25-5.25a.6.6,0,0,0,0-.848l-5.25-5.25a.6.6,0,0,0-.849.848l4.226,4.226h-13.552a.6.6,0,1,0,0,1.2h13.552Z" transform="translate(-1505.534 -1643.365)" fill="#fff"/>
+  </g>
+</svg>

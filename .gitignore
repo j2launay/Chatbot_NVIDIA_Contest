@@ -3,8 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+/qylo-backend/diabetic_medication/
 # C extensions
 *.so
+
+*.env
 
 # Distribution / packaging
 .Python
